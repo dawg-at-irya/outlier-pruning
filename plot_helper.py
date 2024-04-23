@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import warnings
-warnings.filterwarnings("ignore", category=UserWarning, module='matplotlib')
+warnings.filterwarnings("ignore")
+# warnings.filterwarnings("ignore", category=UserWarning, module='matplotlib')
 # plt.rcParams['font.family'] = 'sans-serif'
 # plt.rcParams['font.sans-serif'] = ['DejaVu Sans', 'Arial', 'Liberation Sans', 'Bitstream Vera Sans', 'sans-serif']
 from matplotlib.ticker import AutoMinorLocator
